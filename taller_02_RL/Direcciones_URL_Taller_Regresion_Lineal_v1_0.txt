@@ -12,5 +12,4 @@ Direcciòn del cuaderno de Jupyter en nbviewer
 URL: https://nbviewer.jupyter.org/github/DiplomadoAI-DL-UNAL2021/wilgencorrea/blob/main/taller_02_RL/Entendimiento_JupyterLab%2CGit%2C_Py_RegreLineal_V1_0.ipynb
 
 Direcciòn del cuaderno en HTML preview
-URL:https://htmlpreview.github.io/?https://github.com/DiplomadoAI-DL-UNAL2021/wilgencorrea/blob/main/taller_02_RL/Entendimiento_JupyterLab%2CGit%2C_Py_RegreLineal_V1_0.html
-
+URL:https://github.com/DiplomadoAI-DL-UNAL2021/wilgencorrea/blob/main/taller_02_RL/Entendimiento_JupyterLab%2CGit%2C_Py_RegreLineal_V1_0.html
