@@ -14259,12 +14259,14 @@ a.anchor-link {
 
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="REGRESI&#211;N-LINEAL">REGRESI&#211;N LINEAL<a class="anchor-link" href="#REGRESI&#211;N-LINEAL">&#182;</a></h1><h2 id="Wilgen-Correa">Wilgen Correa<a class="anchor-link" href="#Wilgen-Correa">&#182;</a></h2>
+<h1 id="REGRESI&#211;N-LINEAL">REGRESI&#211;N LINEAL<a class="anchor-link" href="#REGRESI&#211;N-LINEAL">&#182;</a></h1><h2 id="Wilgen-Correa">Wilgen Correa<a class="anchor-link" href="#Wilgen-Correa">&#182;</a></h2><hr>
+
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="1.-Introducci&#243;n.">1. Introducci&#243;n.<a class="anchor-link" href="#1.-Introducci&#243;n.">&#182;</a></h2><h2 id="2.-Breve-historia.">2. Breve historia.<a class="anchor-link" href="#2.-Breve-historia.">&#182;</a></h2><h2 id="3.-El-planteamiento-del-algoritmo.">3. El planteamiento del algoritmo.<a class="anchor-link" href="#3.-El-planteamiento-del-algoritmo.">&#182;</a></h2><h2 id="4.-Desarrollar-un-ejemplo-de-regresi&#243;n-lineal.">4. Desarrollar un ejemplo de regresi&#243;n lineal.<a class="anchor-link" href="#4.-Desarrollar-un-ejemplo-de-regresi&#243;n-lineal.">&#182;</a></h2><h2 id="5.-Conclusiones.">5. Conclusiones.<a class="anchor-link" href="#5.-Conclusiones.">&#182;</a></h2>
+<h2 id="1.-Introducci&#243;n.">1. Introducci&#243;n.<a class="anchor-link" href="#1.-Introducci&#243;n.">&#182;</a></h2><h2 id="2.-Breve-historia.">2. Breve historia.<a class="anchor-link" href="#2.-Breve-historia.">&#182;</a></h2><h2 id="3.-El-planteamiento-del-algoritmo.">3. El planteamiento del algoritmo.<a class="anchor-link" href="#3.-El-planteamiento-del-algoritmo.">&#182;</a></h2><h2 id="4.-Desarrollar-un-ejemplo-de-regresi&#243;n-lineal.">4. Desarrollar un ejemplo de regresi&#243;n lineal.<a class="anchor-link" href="#4.-Desarrollar-un-ejemplo-de-regresi&#243;n-lineal.">&#182;</a></h2><h2 id="5.-Conclusiones.">5. Conclusiones.<a class="anchor-link" href="#5.-Conclusiones.">&#182;</a></h2><hr>
+
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
@@ -14276,7 +14278,7 @@ a.anchor-link {
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>Representa un ajuste o relación lineal entre dos o mas variables en un modelo matemático usado para aproximar la relación de dependencia, 
 entre una variable dependiente $y$, y una variable independiente $x$.</p>
-<p>Entendiendo que lo que llamamos predicción o pronóstico (Probabilidad en el futuro que algo suceda) en las situaciones que nos compete estudiar la basaremos en conocimiento que aplicaremos para el desarrollo de nuestro estudio en temas de Inteligencia Articifial. Y podemos partir de una relación como la que se describe a continuación:</p>
+<p>Entendiendo que lo que llamamos predicción o pronóstico (Probabilidad en el futuro que algo suceda) en las situaciones que nos compete estudiar la basaremos en conocimiento que aplicaremos para el desarrollo de nuestro estudio en temas de Inteligencia Artificial. Y podemos partir de una relación como la que se describe a continuación:</p>
 <p>$Variable Dependiente = Constante + Pendiente * Variable Independiente + Error$</p>
 
 </div>
@@ -14288,7 +14290,7 @@ entre una variable dependiente $y$, y una variable independiente $x$.</p>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>La <strong>regresión lineal</strong> es un campo de estudio el cual se centra en la <strong>relación estadística</strong> entre dos <strong>variables continuas</strong>, cuando ya se involucran más de una variable predictora, se establece una <strong>relación lineal Multiple</strong>, se puede llevar el estudio de relación de <strong>$variables$</strong><br>
+<p>La <strong>regresión lineal</strong> es un campo de estudio el cual se centra en la <strong>relación estadística</strong> entre dos <strong>variables continuas</strong>, cuando ya se involucran más de una variable predictora, se establece una <strong>relación lineal Múltiple</strong>, se puede llevar el estudio de relación de <strong>$variables$</strong>.<br>
 <img src="https://i.imgur.com/Ud08a8N.png" alt=""></p>
 
 </div>
@@ -14300,7 +14302,7 @@ entre una variable dependiente $y$, y una variable independiente $x$.</p>
 <ul>
 <li>$y= b + wx$</li>
 </ul>
-<p>es así que cuando tengamos un dato con <em>N</em> variables, llamaremos al dato $x$. también tenemos que expandir los parámetros $w$</p>
+<p>es así, que cuando tengamos un dato con <em>N</em> variables, llamaremos al dato $x$. Se debe tener en cuenta que se expanden también los parámetros $w$.</p>
 <p><img src="https://i.imgur.com/D0FD14K.png" alt=""></p>
 
 </div>
@@ -14310,18 +14312,18 @@ entre una variable dependiente $y$, y una variable independiente $x$.</p>
 <h2 id="3.-El-planteamiento-del-algoritmo."><strong><em>3. El planteamiento del algoritmo.</em></strong><a class="anchor-link" href="#3.-El-planteamiento-del-algoritmo.">&#182;</a></h2><ol>
 <li>Importar las librerias a utilizar</li>
 <li>Cargar un archivo como fuente de datos (formato csv) se carga como un dataset de Pandas.</li>
-<li>A partir de las características de una muestra de datos de sedimento de tierra y otros materiales rocosos, en la región de Chichina, se toma el conjunto de información de algunas variables como: Tipo de tierra  espesor de la capa enterrada, porcentaje de arcilla sedimentada, y la permeabilidad del suelo; con el objetivo de evaluar un modelo de regresión lineal de acuerdo al aprendizaje conceptual del diplomado, a contiuación se describen las a tener en cuenta:</li>
+<li>A partir de las características de una muestra de datos de sedimento de tierra y otros materiales rocosos, en la región de Chichina, se toma el conjunto de información de algunas variables como: Tipo de tierra  espesor de la capa enterrada, porcentaje de arcilla sedimentada, y la permeabilidad del suelo; con el objetivo de evaluar un modelo de regresión lineal de acuerdo al aprendizaje conceptual del diplomado, a continuación se describen las $variables$ a tener en cuenta:</li>
 </ol>
 <ul>
-<li>Se tomaran las columnas de: 
-<strong> DESCRIPTIO: Descripción de la tierra (arcillosa,rocosa metasedimentada, etc.)</strong> THICKNESS : Espesor de la capas enterradas (mts).
-<strong> PERCLAY   : Porcentaje de arcillas (%).</strong> PERMEABILI: Permeabilidad (mts/dias).</li>
+<li><p>Se tomaran las columnas de:</p>
+</li>
+<li><p>DESCRIPTIO: Descripción de la tierra (arcillosa,rocosa metasedimentada,etc.)</p>
+</li>
+<li>THICKNESS : Espesor de la capas enterradas (mts).</li>
+<li>PERCLAY   : Porcentaje de arcillas (%).</li>
+<li>PERMEABILI: Permeabilidad (mts/dias).</li>
 </ul>
-<ol>
-<li>Hacer una <strong><em>Regresión Lineal Simple</em></strong> y Graficar.</li>
-<li>Hacer una <strong><em>Regresión Lineal Multiple</em></strong> y Graficar.</li>
-</ol>
-
+<h3 id="&#183;-Hacer-una-Regresi&#243;n-Lineal-Simple-y-su-gr&#225;fica.">&#183; Hacer una <strong><em>Regresi&#243;n Lineal Simple</em></strong> y su gr&#225;fica.<a class="anchor-link" href="#&#183;-Hacer-una-Regresi&#243;n-Lineal-Simple-y-su-gr&#225;fica.">&#182;</a></h3><h3 id=".--Hacer-una-Regresi&#243;n-Lineal-M&#250;ltiple-y-su-gr&#225;fica.">.  Hacer una <strong><em>Regresi&#243;n Lineal M&#250;ltiple</em></strong> y su gr&#225;fica.<a class="anchor-link" href="#.--Hacer-una-Regresi&#243;n-Lineal-M&#250;ltiple-y-su-gr&#225;fica.">&#182;</a></h3>
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
@@ -14429,16 +14431,18 @@ entre una variable dependiente $y$, y una variable independiente $x$.</p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <ul>
-<li>Se tomaran las columnas de: 
-<strong> DESCRIPTIO: Descripción de la tierra (arcillosa, rocosa metasedimentada, etc.)</strong> THICKNESS : Espesor de la capas enterradas (mts).
-<strong> PERCLAY   : Porcentaje de arcillas (%).</strong> PERMEABILI: Permeabilidad (mts/dias).</li>
+<li>Se tomaran las columnas de: </li>
+<li>DESCRIPTIO: Descripción de la tierra (arcillosa, rocosa metasedimentada, etc.)</li>
+<li>THICKNESS : Espesor de la capas enterradas (mts).</li>
+<li>PERCLAY   : Porcentaje de arcillas (%).</li>
+<li>PERMEABILI: Permeabilidad (mts/dias).</li>
 </ul>
 
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="Informacion-detallada-de-los-5-primeros-registros!!">Informacion detallada de los 5 primeros registros!!<a class="anchor-link" href="#Informacion-detallada-de-los-5-primeros-registros!!">&#182;</a></h4>
+<h4 id="Informaci&#243;n-detallada-de-los-5-primeros-registros!!">Informaci&#243;n detallada de los 5 primeros registros!!<a class="anchor-link" href="#Informaci&#243;n-detallada-de-los-5-primeros-registros!!">&#182;</a></h4>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
@@ -14583,7 +14587,7 @@ entre una variable dependiente $y$, y una variable independiente $x$.</p>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="Informacion-estad&#237;stica-de-los-datos">Informacion estad&#237;stica de los datos<a class="anchor-link" href="#Informacion-estad&#237;stica-de-los-datos">&#182;</a></h4>
+<h4 id="Informaci&#243;n-estad&#237;stica-de-los-datos">Informaci&#243;n estad&#237;stica de los datos<a class="anchor-link" href="#Informaci&#243;n-estad&#237;stica-de-los-datos">&#182;</a></h4>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
@@ -14743,7 +14747,7 @@ entre una variable dependiente $y$, y una variable independiente $x$.</p>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="4.3.-Quitar-datos-no-relevantes-las-caracter&#237;sticas-de-los-datos-de-entrada">4.3. Quitar datos no relevantes las caracter&#237;sticas de los datos de entrada<a class="anchor-link" href="#4.3.-Quitar-datos-no-relevantes-las-caracter&#237;sticas-de-los-datos-de-entrada">&#182;</a></h1>
+<h1 id="4.3.-Quitar-datos-no-relevantes-a-las-caracter&#237;sticas-de-los-datos-de-entrada">4.3. Quitar datos no relevantes a las caracter&#237;sticas de los datos de entrada<a class="anchor-link" href="#4.3.-Quitar-datos-no-relevantes-a-las-caracter&#237;sticas-de-los-datos-de-entrada">&#182;</a></h1>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
@@ -14867,12 +14871,12 @@ entre una variable dependiente $y$, y una variable independiente $x$.</p>
 <li>Se entrena el modelo</li>
 <li>Se hace la predicción para la interpretación de una línea</li>
 </ul>
-<h2 id="Regresi&#243;n-Lineal-Simple:-$y-=-mx-+b$">Regresi&#243;n Lineal Simple: $y = mx +b$<a class="anchor-link" href="#Regresi&#243;n-Lineal-Simple:-$y-=-mx-+b$">&#182;</a></h2><h2 id="Visualiza-Coeficiente-($m$)">Visualiza Coeficiente ($m$)<a class="anchor-link" href="#Visualiza-Coeficiente-($m$)">&#182;</a></h2><h2 id="Valor-donde-corta-el-eje-$y$-(en-$x=0$),-T&#233;rmino-Indepentiende-($b$)">Valor donde corta el eje $y$ (en $x=0$), T&#233;rmino Indepentiende ($b$)<a class="anchor-link" href="#Valor-donde-corta-el-eje-$y$-(en-$x=0$),-T&#233;rmino-Indepentiende-($b$)">&#182;</a></h2><h2 id="Error-Cuadrado-Medio-($ECM$)-(Pretendiendo-que-su-puntuaci&#243;n-sea-cercana-a-0)">Error Cuadrado Medio ($ECM$) (Pretendiendo que su puntuaci&#243;n sea cercana a 0)<a class="anchor-link" href="#Error-Cuadrado-Medio-($ECM$)-(Pretendiendo-que-su-puntuaci&#243;n-sea-cercana-a-0)">&#182;</a></h2><h2 id="Varianza-(Pretendiendo-que-su-puntuaci&#243;n-sea-cercana-a-1.0)">Varianza (Pretendiendo que su puntuaci&#243;n sea cercana a 1.0)<a class="anchor-link" href="#Varianza-(Pretendiendo-que-su-puntuaci&#243;n-sea-cercana-a-1.0)">&#182;</a></h2>
+<h2 id="Regresi&#243;n-Lineal-Simple:-$y-=-mx-+b$">Regresi&#243;n Lineal Simple: $y = mx +b$<a class="anchor-link" href="#Regresi&#243;n-Lineal-Simple:-$y-=-mx-+b$">&#182;</a></h2><h2 id="Visualiza-Coeficiente-($m$)">Visualiza Coeficiente ($m$)<a class="anchor-link" href="#Visualiza-Coeficiente-($m$)">&#182;</a></h2><h2 id="Valor-donde-corta-el-eje-$y$-(en-$x=0$),-T&#233;rmino-Independiente-($b$)">Valor donde corta el eje $y$ (en $x=0$), T&#233;rmino Independiente ($b$)<a class="anchor-link" href="#Valor-donde-corta-el-eje-$y$-(en-$x=0$),-T&#233;rmino-Independiente-($b$)">&#182;</a></h2><h2 id="Error-Cuadrado-Medio-($ECM$)-(Pretendiendo-que-su-puntuaci&#243;n-sea-cercana-a-0)">Error Cuadrado Medio ($ECM$) (Pretendiendo que su puntuaci&#243;n sea cercana a 0)<a class="anchor-link" href="#Error-Cuadrado-Medio-($ECM$)-(Pretendiendo-que-su-puntuaci&#243;n-sea-cercana-a-0)">&#182;</a></h2><h2 id="Varianza-(Pretendiendo-que-su-puntuaci&#243;n-sea-cercana-a-1.0)">Varianza (Pretendiendo que su puntuaci&#243;n sea cercana a 1.0)<a class="anchor-link" href="#Varianza-(Pretendiendo-que-su-puntuaci&#243;n-sea-cercana-a-1.0)">&#182;</a></h2>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[98]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[103]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># se asigna la variable de entrada X para entrenamiento y las etiquetas Y.</span>
@@ -14894,7 +14898,7 @@ entre una variable dependiente $y$, y una variable independiente $x$.</p>
 <span class="c1"># Se visualiza los coeficientes obtenidos.</span>
 <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Coeficiente (m): &#39;</span><span class="p">,</span> <span class="n">regr</span><span class="o">.</span><span class="n">coef_</span><span class="p">)</span>
 <span class="c1"># Valor donde corta el eje Y (en X=0)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Termino Indepentiende (b): &#39;</span><span class="p">,</span> <span class="n">regr</span><span class="o">.</span><span class="n">intercept_</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Termino Independiente (b): &#39;</span><span class="p">,</span> <span class="n">regr</span><span class="o">.</span><span class="n">intercept_</span><span class="p">)</span>
 <span class="c1"># Error Cuadrado Medio, ECM</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;ECM: Error Cuadrado Medio: </span><span class="si">%.2f</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">mean_squared_error</span><span class="p">(</span><span class="n">y_train</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">))</span>
 <span class="c1"># Puntaje de Varianza. El mejor puntaje es un 1.0</span>
@@ -14920,7 +14924,7 @@ entre una variable dependiente $y$, y una variable independiente $x$.</p>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>Regresión Lineal Simple:::: y = mx +b 
 Coeficiente (m):  [-0.05394601]
-Termino Indepentiende (b):  2.7521818303158585
+Termino Independiente (b):  2.7521818303158585
 ECM: Error Cuadrado Medio: 0.40
 Varianza: 0.73
 </pre>
@@ -15006,7 +15010,7 @@ Varianza: 0.73
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="4.6.-Hacer-una-Regresi&#243;n-Lineal-Multiple-y-se-grafica.">4.6. Hacer una <strong><em>Regresi&#243;n Lineal Multiple</em></strong> y se grafica.<a class="anchor-link" href="#4.6.-Hacer-una-Regresi&#243;n-Lineal-Multiple-y-se-grafica.">&#182;</a></h1>
+<h1 id="4.6.-Hacer-una-Regresi&#243;n-Lineal-M&#250;ltiple-y-su-gr&#225;fica.">4.6. Hacer una <strong><em>Regresi&#243;n Lineal M&#250;ltiple</em></strong> y su gr&#225;fica.<a class="anchor-link" href="#4.6.-Hacer-una-Regresi&#243;n-Lineal-M&#250;ltiple-y-su-gr&#225;fica.">&#182;</a></h1>
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
